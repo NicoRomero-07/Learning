@@ -56,38 +56,60 @@
     <Analyzer Include="D:\ProgramFiles\Microsoft Visual Studio\2022\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\3.1c\HelicopterControl.cs" />
+    <Compile Include="Assets\Scripts\moverCamara.cs" />
     <Compile Include="Assets\Scripts\2.2b\CollisionDetection.cs" />
     <Compile Include="Assets\Scripts\2.2c\imprimePosiciones.cs" />
     <Compile Include="Assets\Scripts\2.4a\follow.cs" />
-    <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Sapporo_Props\SnowBallFightObject\Scripts\EnemyPcController.cs" />
-    <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Sapporo_Props\SnowBallFightObject\Scripts\SantaController.cs" />
-    <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Sapporo_Props\SnowBallFightObject\Scripts\SnowManController.cs" />
-    <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Sapporo_Props\SnowBallFightObject\Scripts\MoveSnowBall.cs" />
-    <Compile Include="Assets\movimiento_semiCinematico.cs" />
+    <Compile Include="Assets\Scripts\3\CreateWall.cs" />
+    <Compile Include="Assets\Scripts\movimiento_semiCinematico.cs" />
     <Compile Include="Assets\Scripts\2.4a\movimientoEnOcho.cs" />
-    <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Sapporo_Props\SnowBallFightObject\Scripts\SnowBallShooter.cs" />
-    <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Scripts\QuerySDController\QueryChanSapporoMecanimController.cs" />
+    <Compile Include="Assets\Scripts\moverPlataforma.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\ControlHorVert.cs" />
+    <Compile Include="Assets\Scripts\2.4c\collisionNpc.cs" />
     <Compile Include="Assets\Scripts\2.4c\detectaPared.cs" />
-    <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Scripts\SceneController\GameSceneController.cs" />
-    <Compile Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Sapporo_Props\SnowBallFightObject\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\3\CannonShot.cs" />
     <Compile Include="Assets\Scripts\2.2b\Desplazamiento2_2b.cs" />
-    <Compile Include="Assets\movimiento_cinematico.cs" />
+    <Compile Include="Assets\Scripts\movimiento_cinematico.cs" />
     <Compile Include="Assets\Scripts\2.4c\NPCcontrolador.cs" />
     <Compile Include="Assets\Scripts\CharacterMovement.cs" />
-    <Compile Include="Assets\Scripts\2.4c\collisionNpc.cs" />
+    <Compile Include="Assets\Aprendiz_2_incognitas.cs" />
+    <Compile Include="Assets\Hola_Weka.cs" />
+    <Compile Include="Assets\Aprendiz_1_incognita.cs" />
+    <Compile Include="Assets\AprendizLento_2_incognitas.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\ZRNAssets\006441_09646_1_1\Shaders\su_Zmap_DoubleSide.shader" />
-    <None Include="Assets\ZRNAssets\006441_09646_1_1\Shaders\su_Zmap_funsui.shader" />
-    <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Sapporo_Props\SnowBallFightObject\Shaders\PQ_Standard.shader" />
-    <None Include="Assets\ZRNAssets\006441_09646_1_1\Shaders\su_Zmap_way.shader" />
-    <None Include="Assets\ZRNAssets\Standard Assets\Projectors\Guidelines.txt" />
-    <None Include="Assets\ZRNAssets\006441_09646_1_1\Documents\ReadMe.txt" />
-    <None Include="Assets\ZRNAssets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
-    <None Include="Assets\ZRNAssets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
-    <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Documents\ReadMe.txt" />
-    <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Sapporo_Props\SnowBallFightObject\Shaders\PQ_Snow.shader" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.SwingAWT.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\ikvm-native-win32-x64.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Charsets.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Naming.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Security.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Text.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Tools.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Bind.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.XPath.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Beans.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.API.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Misc.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.Runtime.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.WebServices.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Parse.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.Runtime.JNI.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Corba.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\ICSharpCode.SharpZipLib.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.AWT.WinForms.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Management.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Util.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.Reflection.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Jdbc.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Transform.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Remoting.dll" />
+    <None Include="Assets\Weka\weka.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Crypto.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Core.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\ikvm-native-win32-x86.dll" />
+    <None Include="Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Media.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -311,6 +333,93 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\ProgramFiles\Unity\Hub\Editor\2020.3.30f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Security">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Util">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.XPath">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Media">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Management">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Corba">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Corba.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.SwingAWT">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Reflection">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Charsets">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+    <Reference Include="weka">
+      <HintPath>Assets\Weka\weka.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Naming">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Naming.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime.JNI">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.Runtime.JNI.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.AWT.WinForms">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.AWT.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.API">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.API.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Tools">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Misc">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Misc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.WebServices">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Text">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Crypto">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Parse">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Beans">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Beans.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Remoting">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Transform">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Transform.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Jdbc">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Bind">
+      <HintPath>Assets\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Bind.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\ProgramFiles\Unity\Hub\Editor\2020.3.30f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -660,6 +769,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -684,8 +796,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.multiplayer-weaver.Editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+      <HintPath>Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
